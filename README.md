@@ -1,5 +1,7 @@
 # Python 시작하기
 
+해당 저장소는 [c9-python-getting-started](https://github.com/microsoft/c9-python-getting-started)의 한국어 번역 저장소입니다.
+
 ## 개요
 
 Channel 9과 YouTube에서 제공하는 세 가지 시리즈는 여러분들이 Python을 빠르게 익힐 수 있도록 설계되었습니다. 여러분이 Python을 배워보고 싶은 초보 개발자이거나 Python을 이용하여 데이터 사이언스나 웹 프로젝트를 시작해보려고 한다면 이 비디오를 통해 필요한 Python 기본기를 학습 할 수 있습니다.

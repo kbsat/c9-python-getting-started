@@ -1,6 +1,6 @@
-# ask a user to enter their first name and store it in a variable
-# ask a user to enter their last name and store it in a variable
-# print their full name
-# Make sure you have a space between first and last name
-# Make sure the first letter of first name and last name is uppercase
-# Make sure the rest of the name is lowercase
+# 사용자에게 first_name을 입력하여 변수에 저장하도록 요청하세요.
+# 사용자에게 last_name을 입력하여 변수에 저장하도록 요청하세요.
+# full name을 출력하세요.
+# 성과 이름 사이에 공백을 삽입하세요.
+# 이름과 성의 첫 글자를 대문자여야합니다.
+# 나머지 이름은 소문자여야합니다.

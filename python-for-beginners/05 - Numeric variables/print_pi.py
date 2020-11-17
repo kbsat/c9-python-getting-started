@@ -1,3 +1,3 @@
-# You can use variables to store numeric values
+# 변수에 숫자 값을 저장해 사용할 수 있습니다.
 pi = 3.14159
 print(pi)

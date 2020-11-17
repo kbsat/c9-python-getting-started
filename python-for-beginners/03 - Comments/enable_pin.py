@@ -10,5 +10,5 @@ def enable_pin(user, pin):
 current_user = 'TEST123'
 pin = '123456'
 
-# PIN 체크 기능을 나열된 보안 인자들로 활성화하세요.
+# enable_pin에 인자를 넣어 pin을 활성화시켜보세요.
 enable_pin(current_user, pin)

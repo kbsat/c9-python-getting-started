@@ -3,7 +3,7 @@ y = 0
 try:
     print(x / y)
 except ZeroDivisionError as e:
-    # Optionally, log e somewhere
+    # 선택적으로 e를 어딘가에 기록하세요.
     print('Sorry, something went wrong')
 except:
     print('Something really went wrong')

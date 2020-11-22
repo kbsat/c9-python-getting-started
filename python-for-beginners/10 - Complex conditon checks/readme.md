@@ -1,31 +1,31 @@
-# Complex condition checks
+# 복잡한 조건 검사하기
 
-Conditional execution can be completed using the [if](https://docs.python.org/3/reference/compound_stmts.html#the-if-statement) statement.
+[if](https://docs.python.org/3/reference/compound_stmts.html#the-if-statement) 문을 이용하여 조건문을 완성할 수 있습니다.
 
-`if` syntax
+`if` 구문
 
 ```python
-if expression:
-    # code to execute
-elif expression:
-    # code to execute
+if 조건:
+    # 실행될 코드
+elif 조건:
+    # 실행될 코드
 else:
-    # code to execute
+    # 실행될 코드
 ```
 
-[Boolean values](https://docs.python.org/3/library/stdtypes.html#boolean-values) can be either `False` or `True`
+[Boolean 값](https://docs.python.org/3/library/stdtypes.html#boolean-values)은 `False` 나 `True`가 될 수 있습니다.
 
-[Boolean operators](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
+[Boolean 연산자](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
 
-- **x *or* y** - If either x **OR** y is true, the expression is executed
-- **x *and* y** - If x **AND** y are both true, the expression is executed
+- **x *or* y** - x **OR** y가 참이면 표현식이 실행됩니다.
+- **x *and* y** - x **AND** y가 참이면 표현식이
 
-[Comparison operators](https://docs.python.org/3/library/stdtypes.html#comparisons)
+[비교 연산자](https://docs.python.org/3/library/stdtypes.html#comparisons)
 
-- < less than
-- < greater than
-- == is equal to
-- \>= greater than or equal to
-- <= less than or equal to
-- != not equal to
-- **x *in* [a,b,c]** Does x match the value of a, b, or c
+- < ~보다 적은
+- < ~보다 큰
+- == ~와 같은
+- \>= ~보다 크거나 같은
+- <= ~보다 작거나 같은
+- != ~와 같지 않은
+- **x *in* [a,b,c]** x가 a,b,c의 값들 중 일치하는게 있는가?

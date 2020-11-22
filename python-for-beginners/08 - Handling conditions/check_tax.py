@@ -1,12 +1,12 @@
-#Calculate the tax
-# Anything purchased for more than $1.00 is charged a 7% tax
+# 세금 계산하기
+# 1.00$가 넘는 모든 물건들은 7%의 세금이 부과됩니다.
 price = input('how much did you pay? ')
 
-# Convert the string to a number
+# 문자열을 숫자형으로 변경하세요.
 price = float(price)
 
-# Check if the price is greater than 1.00
+# 가격이 1.00$를 넘는지 검사하세요.
 if price >= 1.00:
-	# Everything over $1.00 is charged 7% tax
-	tax = .07
-	print('Tax rate is: ' + str(tax))
+    # 1.00$가 넘는 모든 물건들은 7%의 세금이 부과됩니다.
+    tax = .07
+    print('Tax rate is: ' + str(tax))

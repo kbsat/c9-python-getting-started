@@ -1,10 +1,10 @@
-#To get current date and time we need to use the datetime library
+# 현재 날짜와 시간을 얻기 위해 우리는 datetime 라이브러리를 사용해야합니다.
 from datetime import datetime, timedelta
-# The now function returns current date and time
+# now 함수는 현재 날짜와 시간을 datetime 객체로 반환합니다.
 today = datetime.now()
 
 print('Today is: ' + str(today))
-#You can use timedelta to add or remove days, or weeks to a date
+# 일, 주 등을 날짜에서 더하거나 빼기 위해 timedelta를 이용할 수 있습니다.
 one_day = timedelta(days=1)
 yesterday = today - one_day
 print('Yesterday was: ' + str(yesterday))
@@ -12,4 +12,3 @@ print('Yesterday was: ' + str(yesterday))
 one_week = timedelta(weeks=1)
 last_week = today - one_week
 print('Last week was: ' + str(last_week))
-

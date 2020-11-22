@@ -1,32 +1,32 @@
-# When you join a hockey team you get your name on the back of the jersey
-# but the jersey may not be big enough to hold all the letters
-# Ask the user for their first name
+# 하키 팀에 가입하면 유니폼 뒷면에 이름을 표시합니다.
+# 하지만 유니폼은 모든 글자를 담을 수 있을만큼 크지 않을 수 있습니다.
+# 사용자에게 first name을 물으세요.
 first_name = input('Please enter your first name: ')
-# Ask the user for their last name
+# 사용자에게 last name을 물으세요.
 last_name = input('Please enter your last name: ')
 
-# if first name is < 10 characters and last name is < 10 characters 
-#       print first and last name on the jersey
-# if first name >= 10 characters long and last name is < 10 characters
-#       print first initial of first name and the entire last name
-# if first name < 10 characters long and last name is >= 10 characters
-#       print entire first name and first initial of last name
-# if first name >= 10 characters long and last name is >= 10 characters
-#       print last name only
+# 만약 first name이 10글자 미만이고 last name이 10글자 미만이면
+#       first name과 last name을 유니폼에 출력합니다.
+# 만약 first name 10글자 이상이고 last name이 10글자 미만이면
+#       first name의 첫 이니셜과 last name 전체를 출력합니다.
+# 만약 first name 10글자 미만이고 last name이 10글자 이상이면
+#       first name 전체와 last name의 첫 이니셜을 출력합니다.
+# 만약 first name이 10글자 이상이고 last name 또한 10글자 이상일 때
+#       last name만 출력합니다.
 
-# Check length of first name
-if len(first_name) >=10:
+# first name의 길이 체크
+if len(first_name) >= 10:
     long_first_name = True
 else:
     long_first_name = False
 
-# Check length of last name
+# last name의 길이 체크
 if len(last_name) >= 10:
     long_last_name = True
 else:
     long_last_name = False
- 
-# Evaluate possible jersey print combinations for different lengths
+
+# 이름의 길이에 따라서 가능한 유니폼 이름을 조합합니다.
 if long_first_name and long_last_name:
     print(last_name)
 elif long_first_name:

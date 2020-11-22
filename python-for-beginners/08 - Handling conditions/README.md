@@ -1,21 +1,21 @@
-# Handling conditions
+# 조건문 다루기
 
-Conditional execution can be completed using the [if](https://docs.python.org/3/reference/compound_stmts.html#the-if-statement) statement
+[if](https://docs.python.org/3/reference/compound_stmts.html#the-if-statement) 문을 이용하여 조건문을 완성할 수 있습니다.
 
-`if` syntax
+`if` 구문
 
 ```python
-if expression:
-    # code to execute
+if 조건:
+    # 실행될 코드
 else:
-    # code to execute
+    # 실행될 코드
 ```
 
-[Comparison operators](https://docs.python.org/3/library/stdtypes.html#comparisons)
+[비교 연산자](https://docs.python.org/3/library/stdtypes.html#comparisons)
 
-- < less than
-- < greater than
-- == is equal to
-- \>= greater than or equal to
-- <= less than or equal to
-- != not equal to
+- < ~보다 적은
+- < ~보다 큰
+- == ~와 같은
+- \>= ~보다 크거나 같은
+- <= ~보다 작거나 같은
+- != ~와 같지 않은

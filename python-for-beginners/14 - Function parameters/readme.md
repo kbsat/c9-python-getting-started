@@ -1,33 +1,33 @@
-# Function parameters
+# 함수 매개변수
 
-Functions allow you to take code that is repeated and move it to a module that can be called when needed. Functions are defined with the `def` keyword and must be declared before the function is called in your code. Functions can accept one or more parameters and return values.
+함수를 사용하면 반복되는 코드를 가져와 필요할 때 호출 할 수 있는 모듈로 이동할 수 있습니다. 함수는 `def` 키워드로 정의되며 코드에서 함수가 호출되기 전에 선언되어야합니다. 함수는 하나 이상의 매개 변수를 허용하고 값을 반환할 수 있습니다.
 
-- [Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+- [함수](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 
 ```python
 def function_name(parameter):
-    # code to execute
+    # 실행할 코드
     return value
 ```
 
-Parameters can be assigned a [default value](https://docs.python.org/3/tutorial/controlflow.html#default-argument-values) making them optional when the function is called.
+매개변수에 [default 값](https://docs.python.org/3/tutorial/controlflow.html#default-argument-values)을 할당하여 함수가 호출될 때 선택적으로 만들 수 있습니다.
 
 ```python
 def function_name(parameter=default):
-    # code to execute
+    # 실행할 코드
     return value
 ```
 
-When you call a function you may specify the values for the parameters using positional or [named notation](https://docs.python.org/3/tutorial/controlflow.html#keyword-arguments)
+함수를 호출 할 때 위치 또는 [이름 표기법](https://docs.python.org/3/tutorial/controlflow.html#keyword-arguments)을 사용하여 매개 변수의 값을 지정할 수 있습니다.
 
 ```python
 def function_name(parameter1, parameter2):
-    # code to execute
+    # 실행할 코드
     return value
 
-# Positional notation pass in arguments in same order as parameters are declared
+# 위치 표기법은 매개 변수가 선언된 것과 동일한 순서로 인자를 전달합니다.
 result = function_name(value1,value2)
 
-# Named notation
+# 이름 표기법
 result = function_name(parameter1=value1, parameter2=value2)
 ```

@@ -2,6 +2,7 @@ import functools
 from colorama import init, Fore
 init()
 
+
 def color(color):
     def wrapper(func):
         @functools.wraps(func)
@@ -11,9 +12,11 @@ def color(color):
         return runner
     return wrapper
 
+
 @color(color=Fore.BLUE)
 def greeter():
     print('Hello, world!!')
     print('Just saying hi again')
+
 
 greeter()

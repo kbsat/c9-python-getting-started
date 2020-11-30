@@ -1,16 +1,16 @@
 import json
 
-# Create a dictionary object
-person_dict = {'first': 'Christopher', 'last':'Harrison'}
-# Add additional key pairs to dictionary as needed
-person_dict['City']='Seattle'
+# 딕셔너리 객체 생성
+person_dict = {'first': 'Christopher', 'last': 'Harrison'}
+# 필요하면 딕셔너리에 key/value 쌍 추가
+person_dict['City'] = 'Seattle'
 
-# create a staff dictionary
-# assign a person to a staff position of program manager
-staff_dict ={}
-staff_dict['Program Manager']=person_dict
-# Convert dictionary to JSON object
+# 직원 딕셔너리 생성
+# 직원 딕셔너리에 program manager 위치에 사람을 직원으로 배정
+staff_dict = {}
+staff_dict['Program Manager'] = person_dict
+# 딕셔너리를 JSON 객체로 변환
 staff_json = json.dumps(staff_dict)
 
-# Print JSON object
+# JSON 객체 출력
 print(staff_json)

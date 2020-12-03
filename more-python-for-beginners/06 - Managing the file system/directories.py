@@ -1,16 +1,16 @@
 from pathlib import Path
 cwd = Path.cwd()
 
-# Get the parent directory
+# 부모 디렉토리 가져오기
 parent = cwd.parent
 
-# Is this a directory?
+# 디렉토리인지 확인하기
 print('\nIs this a directory? ' + str(parent.is_dir()))
 
-# Is this a file?
+# 파일인지 확인하기
 print('\nIs this a file? ' + str(parent.is_file()))
 
-# List child directories
+# 자식 디렉토리 나열
 print('\n-----directory contents-----')
 for child in parent.iterdir():
     if child.is_dir():

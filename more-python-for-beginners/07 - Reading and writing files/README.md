@@ -1,7 +1,7 @@
-# Working with files
+# 파일 작업
 
-Python allows you to read and write from files. [io](https://docs.python.org/3/library/io.html) is the module that provides Python capabilities for input/output (I/O), including text I/O from files
+Python은 파일에 읽기, 쓰기 작업을 할 수 있습니다. [io](https://docs.python.org/3/library/io.html)는 파일의 텍스트 I/O를 포함한 입출력(I/O) 기능을 제공하는 Python 모듈입니다.
 
-## Microsoft Learn Resources
+## Microsoft 학습 자료
 
-Explore related tutorials on [Microsoft Learn](https://learn.microsoft.com/?WT.mc_id=python-c9-niner)
+[Microsoft Learn](https://learn.microsoft.com/?WT.mc_id=python-c9-niner)에서 관련 튜토리얼을 찾아보세요.

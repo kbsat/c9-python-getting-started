@@ -1,15 +1,15 @@
-# Handling duplicates and rows with missing values
+# 누락된 값의 행 및 중복 처리하기
 
-When preparing data for machine learning you need to remove duplicate rows and you may need to delete rows with missing values.
+기계 학습을 위한 데이터를 준비 할 때 중복 행을 제거해야하며 누락 된 값이있는 행을 삭제해야 할 수 있습니다.
 
-## Common functions
+## 일반적인 함수
 
-- [dropna](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.duplicated.html) removes rows with missing values
-- [duplicated](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.duplicated.html) returns a True or False to indicate if a row is a duplicate of a previous row
-- [drop_duplicates](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop_duplicates.html) returns a DataFrame with duplicate rows removed
+- [dropna](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.duplicated.html) 는 누락된 값의 행을 지웁니다.
+- [duplicated](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.duplicated.html) 는 기존 행에 중복되는 행인지 확인한 후 True나 False의 값을 반환합니다.
+- [drop_duplicates](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop_duplicates.html)는 중복 행을 지운 DataFrame을 반환합니다.
 
-## Microsoft Learn Resources
+## Microsoft 학습 자료
 
-Explore related tutorials on [Microsoft Learn](https://learn.microsoft.com/?WT.mc_id=python-c9-niner).
+[Microsoft Learn](https://learn.microsoft.com/?WT.mc_id=python-c9-niner)에서 관련 튜토리얼을 찾아보세요.
 
-- [Intro to machine learning with Python and Azure Notebooks](https://docs.microsoft.com/learn/paths/intro-to-ml-with-python/?WT.mc_id=python-c9-niner)
+- [Python과 Azure Notebooks을 이용한 기계 학습 입문](https://docs.microsoft.com/learn/paths/intro-to-ml-with-python/?WT.mc_id=python-c9-niner)

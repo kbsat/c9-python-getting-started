@@ -1,14 +1,14 @@
 # pandas
 
-[pandas](https://pandas/pydata.org​) is an open source Python library contains a number of high performance data structures and tools for data analysis.
+[pandas](https://pandas/pydata.org​)는 고성능 데이터 구조 및 도구가 포함되어 있는 오픈소스 Python 라이브러리입니다.
 
-## Documentation
+## 관련 문서
 
-- [Series](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html) stores one dimensional arrays
-- [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html) stores two dimensional arrays and can contain different datatypes
+- [Series](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html)는 1차원 배열을 저장합니다.
+- [DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html)는 2차원 배열을 저장하고 다른 데이터타입을 담을 수 있습니다.
 
-## Microsoft Learn Resources
+## Microsoft 학습 자료
 
-Explore related tutorials on [Microsoft Learn](https://learn.microsoft.com/?WT.mc_id=python-c9-niner).
+[Microsoft Learn](https://learn.microsoft.com/?WT.mc_id=python-c9-niner)에서 관련 튜토리얼을 찾아보세요.
 
-- [Intro to machine learning with Python and Azure Notebooks](https://docs.microsoft.com/learn/paths/intro-to-ml-with-python/?WT.mc_id=python-c9-niner)
+- [Python과 Azure Notebooks을 이용한 기계 학습 입문](https://docs.microsoft.com/learn/paths/intro-to-ml-with-python/?WT.mc_id=python-c9-niner)

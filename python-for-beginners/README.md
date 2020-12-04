@@ -26,7 +26,7 @@
 
 ## 다음 단계
 
-이번 코스는 빠른 시작을 통해 작업할 수 있도록 Python을 빠르게 익히는 것을 목표로 하기때문에 영상을 마친 이후에 다음단계로는 튜토리얼을 따르는 것입니다. 여기에 우리가 좋아하는 몇 가지가 있습니다.
+이번 코스는 빠른 시작을 통해 작업할 수 있도록 Python을 빠르게 익히는 것을 목표로 하기때문에 영상을 마친 이후에 다음 단계로는 튜토리얼을 따르는 것입니다. 여기에 우리가 좋아하는 몇 가지가 있습니다.
 
 - [빠른 시작: Face REST API 및 Python을 사용하여 이미지에서 얼굴 감지](https://docs.microsoft.com/azure/cognitive-services/face/QuickStarts/Python?WT.mc_id=python-c9-niner?WT.mc_id=python-c9-niner)
 - [빠른 시작: Computer Vision REST API 및 Python을 사용하여 로컬 이미지 분석](https://docs.microsoft.com/azure/cognitive-services/computer-vision/quickstarts/python-disk?WT.mc_id=python-c9-niner?WT.mc_id=python-c9-niner)
